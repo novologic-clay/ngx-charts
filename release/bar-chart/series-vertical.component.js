@@ -53,8 +53,8 @@ var SeriesVerticalComponent = /** @class */ (function () {
             if (_this.type === 'standard') {
                 bar.height = Math.abs(_this.yScale(value) - _this.yScale(0));
                 bar.x = _this.xScale(label);
-                if (value < 0) {
-                    bar.y = _this.yScale(0);
+                if (value <= 0) {
+                    bar.y = _this.yScale(1);
                 }
                 else {
                     bar.y = _this.yScale(value);
