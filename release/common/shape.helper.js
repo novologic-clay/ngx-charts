@@ -16,7 +16,8 @@ export function roundedRect(x, y, w, h, r, _a) {
     else {
         retval += "h" + r + "v" + r;
     }
-    retval += "v" + (h - 2 * r);
+  var vValue = (h - 2 * r);
+    retval += "v" + ((vValue !== 0) ? vValue : -1);
     if (br) {
         retval += "a" + [r, r] + " 0 0 1 " + [-r, r];
     }
