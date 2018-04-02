@@ -70,9 +70,9 @@
     "release"
   ],
   "bugs": {
-    "url": "https://github.com/swimlane/ngx-charts/issues"
+    "url": "https://github.com/novologic-clay/ngx-charts/issues"
   },
-  "homepage": "https://github.com/swimlane/ngx-charts#readme",
+  "homepage": "https://github.com/novologic-clay/ngx-charts#readme",
   "peerDependencies": {
     "@angular/common": "5.x",
     "@angular/core": "5.x",
