@@ -135,8 +135,8 @@ export class SeriesVerticalComponent implements OnChanges {
         bar.height = Math.abs(this.yScale(value) - this.yScale(0));
         bar.x = this.xScale(label);
 
-        if (value < 0) {
-          bar.y = this.yScale(0);
+        if (value <= 0) {
+          bar.y = this.yScale(1);
         } else {
           bar.y = this.yScale(value);
         }
