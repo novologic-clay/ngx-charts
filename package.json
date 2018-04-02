@@ -1,5 +1,5 @@
 {
-  "name": "novologic-clay/ngx-charts",
+  "name": "@swimlane/ngx-charts",
   "version": "7.1.1",
   "description": "Declarative Charting Framework for Angular2 and beyond!",
   "main": "release/index.js",
@@ -70,9 +70,9 @@
     "release"
   ],
   "bugs": {
-    "url": "https://github.com/novologic-clay/ngx-charts/issues"
+    "url": "https://github.com/swimlane/ngx-charts/issues"
   },
-  "homepage": "https://github.com/novologic-clay/ngx-charts#readme",
+  "homepage": "https://github.com/swimlane/ngx-charts#readme",
   "peerDependencies": {
     "@angular/common": "5.x",
     "@angular/core": "5.x",
